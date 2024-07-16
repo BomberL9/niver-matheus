@@ -1,0 +1,83 @@
+body{
+  background-image: url("assets/sonic-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+header{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(100deg, #00FFFF 0%, #00FF00 100%);
+  box-shadow: 0px -20px 50px black;
+  transition: 1s;
+}
+header:hover{
+  padding-bottom: 20px;
+}
+header h1 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+}
+h2{ 
+  font-family: "Josefin Sans", sans-serif;
+  color: #000;
+}
+.grid{
+  margin-top: 20px;
+  width: 100%;
+  height: 30em;
+  aspect-ratio: 2/1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+img{
+  height: 100%;
+  transition: 1s;
+}
+#sonic:hover{
+  translate: 10px;
+}
+#doors:hover{
+  translate: -10px;
+}
+section{
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  text-align: center;
+  width: 80%;
+}
+#message{
+  font-size: 25px;
+  transition: 1s;
+}
+#message:hover{
+  transform: translateY(-10px);
+}
+#music-button{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF0000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 60px;
+  transition: 1s ease-in;
+}
+#music-button:hover{
+  transform: translateY(10px);
+  color: #E5E5E5;
+  background-color: #F64348AD;
+  box-shadow: 0 0 5px #F64348AD, 0 0 25px #F64348AD,
+    0 0 10px #F64348AD, 0 0 10px #F64348AD;
+}
